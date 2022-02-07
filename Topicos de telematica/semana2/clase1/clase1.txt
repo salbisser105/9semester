@@ -1,0 +1,56 @@
+Qué es un sistema distribuido? 
+Un sistema distribuido es un conjunto de equipos independientes que actúan de forma transparente actuando como un único equipo.
+
+
+Sistema de información:
+Se puede definir como un conjunto organizado de componentes relacinoados entre si, el cual incluye: personas, hardware, software, redes, politicas, procedimientos, etc: el cual se encarga de recolectar procesar almacenar y diseminar datos e informacion al interior de una organización.
+
+Aspectos a resaltar...
+    * Procesa datos -> transforma en información y conocimiento. 
+    * Todo esto para la toma de decisiones o en términos generales para apalancar las diferentes actividades y estrategia del negocio. 
+Frase al respecto: "A distributed system is one in which the failure of a computer you didnt even know existed can render your own computer unusable"
+
+Programa: codigo que se escribe,
+proceso: el codigo que se ejecuta,
+mensaje: es empleado para comunicar procesos,
+paquete: porción del mensaje que viaja por la red.
+
+Arquitectura basada en servicios (SOA) 
+
+Vertical scaling,
+Horizontal Scaling
+
+HTTP -> Stateless (No tiene estado.) (Las peticiones de HTTP son independientes entre si)
+
+Aspecto a considerar de un sistema distribuido: 
+ *Basicamente es una colección de elementos de computo,
+ *Cada uno de estos elementos (nodos) se comporta de manera independiente entr si
+ *Cada elemento puede ser un componente HW/SW
+ *Los usuarios o aplicaciones creen que tratan con un unico y solo sistema.
+ *Lo anterior implica la colaboración entre los nodos.
+ *El como se establece y da esta colaboración entre los nodo... es uno de los aspectos a considerar cuando se desarrollan los sistemas distribuidos.
+
+Patron-> Modelo vista controlador. 
+    -Arquitectura logica, 
+    -Arquitectura de despliegue. (UI)
+
+Por qué construir sistemas distribuidos? 
+    -Realmente hay muchas razones y ventajas para construir sistemas distribuidos: 
+        -Un sistema distribuido puede ser mucho mas poderoso considerando las capacidades combinadas de los componentes que lo constituyen.
+        -Habilidad para conectar usuarios remotos con  recursos remotos.
+        -Para mejorar desempeño.
+        -Para resolver grandes problemas.
+        -Para mejorar confiablidad.
+
+Consecuencias de los sistemas distribuidos:
+    -Concurrencia.
+    -Carencia de reloj global.
+    -Fallas independientes. 
+
+Ejemplo de un sistema distribuido simple: 
+    -Dos procesos que se comunican a traves de una red de datos utilizando el intercambio de mensajes.
+
+
+VCPU -> procesador que hoy en dia tiene muchos CORE, el sistema operativo se encarga de definir todos los recursos de forma visual dependiendo del scheduler.
+
+Al trabajar con sistemas distribuidos se debe trabajar con protocolos.

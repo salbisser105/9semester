@@ -1,0 +1,71 @@
+En un sistema distribuido, si un proceso A envía una petición a un proceso B y no recibe respuesta es imposible saber el porque.
+
+Aspectos a considerar 
+Comuniación,
+Coordinación,
+Disponibilidad.
+
+El problema de los consensos, es una de las mayores problematicas en los sistemas distribuidos.
+
+Solución: 
+Api-> Sockets. 
+
+REST/HTTP 
+
+Ventajas y desventajas de los sistemas distribuidos:
+
+Ventajas:
+    -Económicas
+    -Velocidad
+    -Distribución inherente.
+    -Confiabilidad.
+    -Crecimiento incremental.
+desventajas:
+    -Software.
+    -Red.
+    -Mas componentes pueden fallar.
+    -Seguridad. 
+
+Heterogeneidad:
+    Los sistemas distribuidos deben tratar con diferentes tipos de componentes y desde diferentes puntos de vista:
+        -Heterogeneidad a nivel de red...
+        -Heterogeneidad a nivel de hardware..
+        -Heterogeneidad a nivel de nivel del sistema operativo..
+        -Heterogeneidad a nivel de de los lenguajes de programación.
+        -Heterogeneidad a nivel de desde la perspectiva de multiples desarrolladores. 
+Openness:
+    -En el caso de un sistema de computo, esta es la caracateristica que permite determinar si este puede ser extendido y re implementado de diferentes formas.
+    -En el contexto de un sistema distribuido, este aspecto es definido principalmente por el grado en que se puedan agregar nuevos recursos para ser compartidos y ponerlos a disposición para el uso de multipels diferentes clientes.
+    -Basicamente los sistemas distribuidos debe permitir ser extensibles.
+    -Para lograr esto, se debe garantizar la publicacion de las diferentes interfaces de los componentes.
+    -De aqui se deriva un problema relacionado con la integración de dichos componentes.
+    -Se hace necesario la publicación y disponibilidad de la especificación y docmunetación del sistema. 
+
+Seguridad:
+    -La seguridad es otro de los grandes retos cuando construimos un sistema distribuido.
+    -En este sentido, el aseguramiento de los diferentes recursos expuestos y compartirlos en el sistema es vital.
+    -De esta forma, el acceso libre a los recursos del sistema, supone un gran reto en terminos de seguridad.
+    *La seguridad de la información tiene tres grandes componentes:
+        -Confidencialidad.
+        -Integridad.
+        -Disponibilidad.
+
+Escalabilidad.
+    -Un sistema es escalable si este continua siendo efectivo cuando se presenta un incremento del número de recursos y el número de usuarios..
+    *Retos para dise;ar sistemas escalables:
+        -Controlar el costo de los recursos físicos.
+        -Controlar la pérdida de rendimiento...
+        -Evitar que se agoten los recursos de software.
+        -Evitar cuellos de botella.
+
+Manejo de fallas:
+    -Los sistemas de cómputo fallan..
+    -Los fallos conducen a resultados inexactos.
+    -Las fallas en un sistema distribuido son parciales... unos componentes fallan, mientras otros siguen operando. esto hace relevante asi como complejo el manejo de fallas.
+    -Aspectos a considerar para el manejo de fallas en los sistemas distribuidos:
+        -Detectar fallas.
+        -Enmascaramiento de fallas: cuando se retransmite un mensaje, realización de los datos en varios discos, etc.
+        -Tolerancia a las fallas.
+        -Recuperación de fallas.
+        -Redundancia. 
+

@@ -1,0 +1,35 @@
+Objetivo del curso:
+    Los estudiantes al terminar el curso estaran en capacidad de identificar elementos de gestion de las tecnologias de informacion(TI) y su impacto en las organizaciones.
+    Esto sera posible comprendiendo conceptos fundamentales de gestion de las TI, las posibilidades de contratación de Recurso humano especializado,
+    y la importancia de la arquitectura empresarial en las organizaciones.
+
+Tema 1. 
+Tendencias de mercados de productos y servicios de TIC. 
+
+Examen parcial->
+Examen1 - 15  % --> 22 FEBRERO 
+Examen 2 - 15 % --> 29 Marzo
+Examen 3 - 20 % --> 17 Mayo 
+
+Retos 30      % --> 1 Marzo, 5 abril, 24 mayo     
+Quizzes 20 %  --> 8 Marzo, 15 marzo, 3 mayo.
+
+
+=========================================
+
+Evolución de la industria de tecnologias de información: 
+
+Etapas: 
+                       |1. IT craftmanship                                        |2.IT INDUSTRIALIZATION (we are here)                              |3. Digitalization
+Focus                  |   Technology/                                            | Processes/                                                       | Business models 
+Capabilities           |   Programming, systems management/                       | IT management, service management /                              | Digital leadership
+Engagement             |   isolated, disengaged internally and externally /       | Treat collegaues as customers, ungaged with external customers   | Treat colleagues as partners, engaged with external customers
+Outputs and outcomes   |   Sporadic automation and innovation, frequent issues    | Services and solutions efficience and effectivenes               | Digital business inovation; new types of value.
+
+
+terminos: ERP-> enterprise resource planning 
+
+|===================================================================|
+|TODO:                                                              |
+|Averiguar las tipologias de las empresas clasificadas por FEDESOFT.|
+|===================================================================|

@@ -1,0 +1,36 @@
+Qué es una taxonomía?
+
+La ciencia de la categorización, o clasificación, de las cosas basadas en un sistema. 
+
+Nosotros podemos construir taxonomías:
+
+UPFRONT -> temprano del software 
+
+Wiston royce. 1986
+    1. levantamiento de requerimientos
+    2. analisis
+    3. diseño
+    4. construcción
+    5. pruebas
+    6. despliegue. 
+Unidad minima para hacer software.
+
+En el 86, alguíen del departaento de defensa de estados unidos lee ese documento y sale la casada y sus derivados, ej espiral, rup etc.
+TDD -> Test driven development.
+
+Primer equipo SCRUM en el 92, en el 96 sale el primer paper, 97 DSDM, 98 XP, 2001 crean el manifiesto agil 
+2009, escalado 
+
+xp(Extreme programming)-> Historias de usuario, pair programming, prop colectiva del codigo, integración continua, TDD, refactor 
+
+Crystal, SCRUM, XP, FDD, Lean, DSDM, Open up, kanban. 
+
+Non interrupts /scrumbook.org 
+
+Predictivos: 
+Procecos predictivos (Cascada)
+    -Requisitos, son acordados para que
+        -diseño, sea creado y el
+            -codigo, sea escrito para que las
+                -pruebas, sean realizadas y el
+                    -Producto, sea entregado. 

@@ -1,0 +1,24 @@
+Qué se requiere para enviar un paquete de un host a otro?
+ - Protocolo, cliente / servidor.  || Emisor, receptor y un medio de comunicación entre esos dos. 
+ -Necesito una arquitectura de RED. 
+    -Conceptual Layers:                        
+        - 5 Application.
+        - 4 Transport.
+        - 3 Internet.
+        - 2 Network Interface.
+        - 1 Physical Hardware.
+
+    -Cada una de las capaz, diferentes protocolos que se definen, protocolo de internet, de transporte etc.
+    - Arquitectura TSP/ IP.
+
+    Sistemas autonomos: conjunto de redes que se encuentran bajo una misma administración y tienen un mismo ID, ellos tienen un protocolo de enrutamiento.
+    - Exterior gateway protocol
+    - interior gateway protocol.
+    Dispotivos de red: Router, switches, pcs-> Dependiendo de la funcionalidad que tengan ejecutan algo especifico en la capa.
+
+
+    Para conectarme a internet:
+     -ICP. 
+
+    Direccionamiento IP: 
+     Qué es IP -> Identificador logico de nivel 3 con respecto al modelo osmo(?). Lo hace unico desde el punto de vista del HOST

@@ -1,0 +1,23 @@
+tipologias de las empresas clasificadas por FEDESOFT:
+
+
+
+
+
+===========================================
+
+Gartner.
+
+Trends: 
+    -Data Fabric
+    -Cybersercurity Mesh
+    -Privacy-Enchancing Computation
+    -Cloud-Native Platfroms
+    -Composable Applications
+    -Decision Intelligence
+    -Hyperautomation
+    -AI Engineering
+    -Distributed Enterprise
+    -Total Experience
+    -Autonomic Systems
+    -Generative AI

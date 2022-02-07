@@ -1,0 +1,62 @@
+Info de control -> Datos -> PDo3 -> Paquete.
+
+Al proceso el sistema operativo le da un identificador unico. 
+IPCs 
+
+Sockets-> maquinas estan geograficamente dispersas. 
+
+Arquitectura de Red -> Conjunto de capas/ niveles. donde la funcion de cada capa o nivel es ofrecer uno o un conjunto de servicios a la capa medianamente superior.
+
+|=====================|
+|N+3                  |
+|N+2                  |
+|N+1                  |  -> Protocolos.
+|N                    |
+|=====================|
+
+Stack protocolos para enviar un mensaje->  4. HTTP 3. TCP. 2. IP, 1. Ethernet (Asumiendo que estamos conectados a LAN)
+
+
+Lo unico homogeneo que encontramos es que todos tienen TCP/IP y esto es lo que se necesita para poder transmitir datos.
+*Las maquinas no se comunican, se comunican es los procesos.
+
+Web se soporta sobre HTTP / DNS (Puerto 53 UDP).  // DNS Utiliza (TCP y UDP.)
+BIND(Archivo de zona.)
+Todas las aplicaciones tienen una CACHE (Memoria de acceso rapido.) hay diferentes tipos de CACHE. 
+
+Mensajeria intuitiva (No pide permiso al enviar mensaje). 
+
+
+Mascara de Red -> el elemento que acompaña la dirección IP, nos permite saber que porcion de esa direccion ip va a red y que porcion va a HOST  (Notación prefijo, cantidad de bits que estan seteados a 1.)
+
+192.168.1.0/24 
+Como se define una subred ( Se define entre router -> ya que este filtra el trafico BROADCAST)
+Router por cada interfaz define un dominio broadcast -> area potencial donde se puede programar un dominio broadcast 
+
+Ejercicio esquema de direccionamiento IP
+LAN 1 4 dir 2^n-2 => n =3 -> mascara mas grande 29
+LAN2 4 dir 2^n-2 => n =3 -> mascara mas grande 29
+WLAN 2 dir 2^n-2 => n =3 -> mascara mas grande 30 
+
+
+Que es un puerto -> Identificador logico del sistema. El sistema operativo define del 0 al 1024
+Protocolos de SP o UDP. 2^16-> 0,65535 -> 0-1023 estandarizados, 1023 -> libres 
+2 aplicaciones NO pueden correr en el mismo puerto.
+Se tienen puertos fisicos, puertos logicos 
+Los procesos que vamos a trabajar van a ser asi en la siguiente TUPLA.
+<IP;PORT>
+Hay una maquina que se llama WebServer en donde le abrimos los puertos 80(HTTP) y 443 (HTTPS), necesitamos un certificado digital, para que el trafico viaje seguro.
+Trafico este  oeste es la comunicación interna en el dataserver.
+Puerto: Pseudoidentificador de nivel 4, lo que permite el puerto es multiplexar la entrega de los segmentos a la aplicación. (Punto de vista arquitectura de red)/
+
+
+NAT *** IMPORTANTE***
+Se hace esto debido a que hubo un agotamiento de direcciones IP. 
+IPv6 -> 2^128. 
+
+PAT **
+11
+
+Proxy-> Elemento intermedio, 2 tipos de proxy 1. Forwarding Proxy 2. Reverse Proxy(Lo vamos a utilizar mas en el curso)
+
+Protocolo DHCP 

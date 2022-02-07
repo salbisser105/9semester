@@ -1,0 +1,13 @@
+Cómo garantizar que el proceso de desarrollo de software para un producto de software determinado sea adecuado, de calidad y efectivo, mediante la elección de una metodología apropiada segun las tendencias tecnologicas, el contexto y los requisitos
+
+
+Principio base.
+Quienes quieran convertirse en un experto en software, necesitas saber que es un sistema de software.
+El software no es autosuficiente
+
+Para adaptarse, necesita contar con hardware para ejecutarse y con contexto (interno/ externo) para interactuar y crear beneficios.
+
+Evolucion:
+1. Software system(hardware+ software+ context) tradicional
+2. Cyber physical system (cps) -> hardware+software+communication+ context
+3. Smart system(cps+ inference/learning.).

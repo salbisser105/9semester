@@ -1,0 +1,37 @@
+Clases: Lunes miercoles 10:30-12:00.
+Repositorio del curso: Interactiva virtual.
+
+Descripción del curso:
+
+Conceptos y fundamentos de los sistemas disribuidos.
+
+Objetivo del curso:
+Aplicar los fundamentos de los sistemas distribuidos para el desarrollo de sistemas y aplicaciones escalables asi como itensivos en datos..
+
+
+Modo de trabajo:
+Unidades didacticas.
+
+UD N1. FUndamentos en sistemas distribuidos(6 Semanas)
+    - Introducción a los sistemas distribuidos.
+    - Ejemplo de sistemas distribuidos.
+    - Retos de los sistemas disribuidos.
+    - Arquitectura de sistemas distribuidos.
+        - Cliente/servidor vs p2p.
+        - Monolíticas vs Servicios(SOAP) vs micro-servicios.
+    -Middleware.
+    -Comunicación entre procesos distribuidos.
+    -Consistencia y Replicación.
+    - Sistemas de archivos distribuidos, bases de datos distribuidas.
+    -Despliegue de sistemas/ aplicaciones distribuidas.
+        - On-prenise vs Cloud.
+        - Virtualización, contenedores.
+Ud n2. Sistemas escalables(5 Semanas)
+-Arquitectura escalables.
+Ud N3. Ingenieria de datos y grandes volumenes de datos(5 Semanas)
+
+
+El resto de los conceptos esta en interactiva virtual, en la presentación. 
+
+
+

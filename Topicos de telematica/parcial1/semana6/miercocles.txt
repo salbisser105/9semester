@@ -1,0 +1,51 @@
+MultiLeader replication
+*Las aproximaciones con un solo lider, representa que si el lider no esta disponible, se presenta un unico punto de falla.
+ -Igualmente todas las operaciones de escritura, pasan por el lider.
+ -Asi, si por cualquier razón el lider no esta disponible, no se puede efectuar con la operacion de escritura.
+Como lo solucionamos? la forma mas expedita es agregar otra instancia aque permita las operacinoes de escritura.
+Tambien denominado replicación Master/Master o Active-Active.
+
+
+Teorema CAP:
+Consistency: esta relacionada con la caracteristica de que todos los clientes ven los mismo datos al mismo tiempo.
+Availability.
+pArtition tolerance. 
+Strict consistency:
+Este modelo corresponde al a verdarera transparencia en el proceso de realización
+
+Sequential consistency:
+Sequential consistency is one of the consistency models used in the domain of concurrent computing (e.g. in distributed shared memory, distributed transactions, etc.).
+
+Consistencia secuencial:
+Es un modelo de memoria un poco mas débil que la consistencia estricta. fue definida por primera vez por lamport, quein dijo que una memoria con consistencia secue ncial es la que satisface la siguiente condición:
+'El resultado de caulquier ejecución es el mismo que si las operaciones de todos los porcesos ueran ejecutadas en algún orden secuencial y las operaciones de cada proceso individual aparecen en esta secuencia en el orden especificado por su programa.'
+Sginfica que cuando los procesos se ejecutan en paralelo en diferentes maquinas cualquier intercalado valido es un comportameinto aceptable, pero todos los procesos deben ver la misma serie de llamadas a memoria. una memoria donde un proceso ven un intercalad oy otro proceso ve otro distinto no es una memoria con consistencia secunecial.
+La memoria con consistencia secuencial garantiza que todos los procesos vean todas las referencias a memoria en el mismo orden. La memoria con consistencia secuencial garantaiza qeu todos los procesos vean todas las referencias a memoria en el mismo orden.
+No importa el orden exacto en que se intercalen las operaciones mientras todos los procesos esten de acuerdo en el orden de todas las operaciones en la memoria compartida.
+
+Algunas mejoras en devops
+ 1.automatización del ciclo de desarrollo.
+ 2. gestion de codigo fuente.
+ 3. gestion consistente de la configuración.
+ 4. time-to-market reducido.
+ 5. automatización de procesos manuales.
+ 6. Contenedores.
+ 7. Almacenamiento en la nube.
+ 8. Colaboración mejorada
+
+ Qué es DevSecOps
+
+ Development + security + Operations 
+ Sin importar el nombre que se elija, la seguridad debe estar embebida en el proceso de desarrollo y operaciones.
+ La automatización juega un papel clave.
+ Un ejemplo de aplicación de DevSecOps es la automatización de autoevaluación basada en OWASP
+Como implementar DevSecOps
+ Principio de minimo privilegio
+ Centralización de la autenticación y del control de acceso.
+ automatización de pruebas de seguridad.
+ automatización de analisis de estatico(de seguridad)
+ Escaneo de vulnerabilidades conocidas a imagenes para contenedores.
+ automatización de pruebas de aceptación relacinoadas con autorización, autenticación y validación de datos de entrada(formularios)\
+ Encriptación de datos entre aplicaciones y/o servicios
+ automatización de actualizaciones de seguridad
+ automatización del aprovisionamiento hacia un complaince estandarizado

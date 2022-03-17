@@ -1,0 +1,5 @@
+Para iniciar una conexión TCP, el cliente debe conocer la dirección IP y el número de puerto del servidor. La dirección IP del sitio web de Sina se puede convertir automáticamente a una dirección IP utilizando el nombre de dominio www.sina.com.cn, pero ¿cómo sabe el número de puerto del servidor Sina?
+
+La respuesta es que, como servidor, el número de puerto debe ser fijo. Ya que queremos visitarPáginas web,Por lo tanto, el servidor que Sina proporciona servicios web debe ponerEl número de puerto se fija en el puerto 80Porque el puerto 80 es el puerto estándar para los servicios web. Otros servicios tienen los números de puerto estándar correspondientes, por ejemplo, el servicio SMTP es el puerto 25, el servicio FTP es el puerto 21, y así sucesivamente. Los puertos con un número de puerto inferior a 1024 son puertos de servicio estándar de Internet.Los números de puerto mayores que 1024 se pueden usar arbitrariamente.
+
+Una conexión TCP crea un canal bidireccional, y ambas partes pueden enviarse datos entre sí al mismo tiempo. Sin embargo, quien envía primero y quién envía después, la forma de coordinar depende de acuerdos específicos.

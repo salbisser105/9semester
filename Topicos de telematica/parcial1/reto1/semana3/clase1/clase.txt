@@ -1,0 +1,37 @@
+Server web -> puerto 80. (TCP) | 443 HTTPS
+
+1. Protocolo Layer App - TCP/ IP. 
+2. "" TCp servicio orientado a duplex 
+3. Protocolo oritentado al texto 
+4. Request(HTTP Request) / Response (Http response) -> esos mensajes tienen una estructura basada en el texto. 
+
+Linea de petición
+Retorno de carro. Luego vienen unas respuestas opcionales, HEADERS. 
+Server: www.eafit.edu.co
+.
+.
+.
+Body: Campos a nivel de peticion son opcionales. 
+
+Falacias de los sistemas distribuidos:
+    -La red es confiable.. falso
+    -Latencia es 0
+    -El ancho de banda es infinito
+    -La red es segura.
+    -La topologia no cambia..
+    -Solo hay un administrador.
+    -El costo de transporte es 0
+    -La red es homogenea.
+
+Middleware:
+Es considerado como el equivalente al sistema operativo de un maquina.
+    -Un gestor de recursos que le ofrece a las aplicacioens distribuidas formas eficientes para compartir y desplegar recursos sobre la red.
+-Adicional a la gestion de recursos, un Middleware, ofrece servicios como:
+    -Fcilidades para la comunicación entre aplicaciones/procesos
+    -Servicios de seguridad
+    -Enmascaramiento y recuperación de Fallas
+-Un Middleware puede ser visto como un contenedor de componentes y funcinoes que no son comunmente implementados por las aplicaciones de forma independiente.
+    -Comunicacion
+    -Composicion de servicios
+    -confiablidad
+    -transacciones.

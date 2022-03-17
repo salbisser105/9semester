@@ -1,0 +1,12 @@
+Dev ops 
+Proporcionan estabilidad, 
+atienden requerimientos del negocio
+Metodologia,
+ un costo sobre la oportunidad
+ comunicacion: tiempo de entrega de los productos
+ ciclo de vida -> automatización 
+
+ Devops= Agile  |Herramientas|
+                |Practica    |
+                |Valor       |
+                

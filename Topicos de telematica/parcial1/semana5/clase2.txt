@@ -1,0 +1,31 @@
+Middleware:
+Message-oriented Middleware
+
+1. Divide y venceras.
+2. Kiss.
+3. Acoplamiento/cohesim.
+==========================================
+Nos concentraremos en MOM (Significado linea 2)
+Introducción: 
+1. Middleware es el sfotware que conecta componentes software o aplicaciones empresariales.
+2. Se considera una capa de software que se ubica entre el sistema operativo y las aplicaciones distribuidas sobre la red.
+3. Su intencion es simplificara el desarrollo de las aplicaciones distribuidas
+
+
+Comunicación sincronica - asyncronica.
+
+Un MOM puede ser considerado como una de las tecnologias fundamentales para construir un sistema corporativo a gran escala.
+2. Es una forma de Middleware cuyo proposito pirnicipal es ser intermediario entre el ciente y el servidor.
+3.Basicamente trata de la entrega de mensajes entre aplicaciones. la entrega debe ser confiable ofreciendo las garantias necesarias a la palicacion fuente que el mensaje va a ser entregado.
+
+
+Algunas funciones de un servidor MOM:
+1. Aceptar el mensaje de la aplicación que lo envia.. y enviar un mensaje a la aplicacion que el mensaje ha sido recibido.
+2. ubicar el emnsaje en la correspondiente.
+3. Entregar el mensaje a la aplicación.
+4. una vez el mensaje fue entregado satisfactoriamente, eliminar el mensaje de la cola.
+
+
+Otro patron: 
+
+publicador/ suscriptor 

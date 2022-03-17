@@ -1,0 +1,33 @@
+Objetivos especificos.
+Comprender la integración continua como practica orientada a la automatización de los procesos de preubas e integración en el desarrollo de sistemas de software.
+Metodología:
+Acercamiento conceptual a los diferentes temas del curso mediante clasaes magistrales y guiadas.
+Solución de un desafío de dise;o basado en un caso de estudio propuesto al inicio del curso.
+Lectura y analisis de articulos que aborden las ultimas tendencias en investigación y desarrollo del tema.
+Evaluación del estado de la practica de DevOps +CI/CD en un entorno industrial.
+
+
+Desafio de dise;o 30%
+Taller practico de CI/CD 30%
+Lectura y analisis de articulo 20%
+Taller de capacidades para DevOps 20%
+
+Caracteristicas de un paper cientifico:
+
+integración continua: despliegue continuo, devOps:
+Year  >= 2018
+Extensión >= 8 paginas 
+Revistas y eventos cientificos (Conferences, workshops )
+ Fuentes: IEE, explore, scopus, sciencedirect, springer, google scholar 
+no va: position, papers, editoriales, trabajos de grado 
+peer-reviewed
+posibles fuentees
+ldjaramilr@eafit.edu.co
+
+Como fue la transición:
+1. Desarrollo por equipos e integración de los componentes al final.
+2. eXtreme Programming -> integración continua.
+3. Entrega continua.
+4. Despliegue continuo.
+
+Monolito -> Microservicio

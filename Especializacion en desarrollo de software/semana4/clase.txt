@@ -1,0 +1,61 @@
+Origenes devops
+Porqué se integra con lo de la actualidad 
+practicas devops con sre 
+principales herramientas
+
+
+Definicion:
+La IEE define a la confiabilidad como "la habilidad que tiene un sistema o componente de realizar sus funciones requeridas bajo condiciones especificas en periodos de tiempo determinados"
+confiabilidad es asociada a :
+1. Fiabilidad
+2. Disponibilidad.
+3. Seguridad.
+4. Mantemimiento.
+5. protección.
+
+
+SRE history:
+2003-2008: Google buscador DevOps is born.
+20014: First conference about SRE: SreCon
+2016-2018: SRE books are released.
+2019: SRE massification
+
+ROL SRE: persona con conocimientos en desarrollo y apasionada por la automatización
+
+Ing de confiabilidad busca: Disponibilidad ltencia, desempe;o, eficiencia,
+gestion de cambios, monitoreo, respuesta a emergencias y planificación de capacidad.
+
+Ingenieria del caos:
+Es una disciplina basada en experimentación de sistemas, que busca generar cofianza en su capacidad para soportar condiciones turbulentas y recuperarse de ellas usando patrones y practicas resilientes
+
+De donde viene: 
+viene del concepto antifragil definido por nassim nicholas taleb.
+ser antifragil supone que nate elementos externos, estresantes y que generan desorden...
+
+2007 nace netflix
+2008 chaos engineering began at netflix
+2010 Jesse robbins inicia los gamedays en AWS / Chaos monkey & simian army were launched
+2016 Gremlin born 
+2017 SRE unix chaos IQ born/chaos conf 
+2018 1 book chaos monkey for spring boot 
+2019: 1 book chaos massification 
+2020: 1 book was published.
+
+Como experimentar con el caos:
+La ingenieria del caos implica la ejecución de expermientos pensados y planificados que nos ense;an como se comportan nuestros sistemas ante una falla.
+
+Estos experimentos siguen los pasos:
+1. Crear una hipotesis.
+2. Identificar variables y anticipar efectos.
+3. Iniciar el experimiento.
+4. Medir el impacto
+5. Compartir el resultado 
+6. Ampliar el radio de impacto y repetir el experimento.
+
+Qué experimentos de ingenieria del caos debes realizar: 
+Conocimientos-conocidos:
+Desconocidas-conocidas:....
+
+Observabilidad: 
+Es una herramienta o una solución tecnica que permite a los equipos depurar de forma activa su sistema.
+la observabilidad se basa en la exploración de las propiedades y los patrones que no se definen con anticipación

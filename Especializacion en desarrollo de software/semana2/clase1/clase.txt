@@ -1,0 +1,25 @@
+Henrik kniberg
+    -SCRUM Y EXTRERME PROGRAMMING DESDE LAS TRINCHERAS
+    -Scrum y kanban tomando lo mejor de ambos
+    -Lean desde las trincheras.
+TPPS -> LEAN -> Maximización de flujo, 2. Mejora continua, 3. Reducción de desperdicio, 4. Generación de valor.
+
+
+James .. -> 2001 -> Manifiesto agil -> 2017, alistar cockburn ->1. Colaboracion, mejora continua, entrrga de valor y inspeccion y adaptacion (Reflexion)
+
+Valores SCRUM
+    -Compromiso
+    -Foco
+    -Coraje
+    -Respeto
+    -Franqueza
+Si esos valores son pialres, se vuelve confianza dentro del equipo
+
+3- Roles - Po, SM(SCRUM TEAM Max 10), Dev 
+5 eventos -> Sprint -> PLanning, Daily, Review, Retrospective (1. Comunicación, 2. Procesos, 3. interacciones, 4. tecnologica)
+3 artefactos: Product backlog, sprint backlog, increments(cuando se termina )
+
+
+Ejercicio: 
+
+INTERRUPT PATTERN: ILLIGITIMUS NON INTERRUPTUS

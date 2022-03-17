@@ -1,0 +1,35 @@
+Particionamiento de datos:
+El particionamiento de datos es una estrategia fundamental en el contexto de los grandes volúmenes.
+Si bien la replicación es una estrategia que ayuda en entornos donde se requiere un alto desempeño en presencia de gran cantidad de consultas, no es suficiente.
+Por tal razón, se hace necesario en múltiples escenarios dividir o particionar los datos en particiones que se conocen como "particiones" o shardings
+En este sentido, normalmente las particiones son definidas de tal forma que cada una de las peizas de datos pertenece solamente a una particion.
+Finalmente, una de las razones prinicpales de implementar el particionamiento es la escalabilidad.
+El objetivo es distribuir los datos y la carga de consultas a los mismos sobre un conjuto de nodos.
+
+Particionamiento Round Robin.
+Particionamiento Random.
+Particionamiento por key range.
+Consiste en asignar un rango continuo de keys a caad particion(p.ej, como los volumenes de una enciclopedia.)
+Al conocer los limites de forma facil se sabe como y donde almacenar un dato en una particion.
+Notese que los rangos de keys no requieren estar distribuidos de manera uniforme. 
+La distribución de las keys se puede realizar de form manual.
+Una desventaja de este tipo de particionamiento de "hot spot"
+
+Particionamiento por Hash de un Key.
+
+Cloud computing is the on'demand delivery of compute power, database, storage, applications and other IT resources via the internet with pay'as'you go pricing.
+
+
+Caracteristicas:
+-On demand self-service
+-Broad network access.
+-Resource pooling.
+-rapid elasticity.
+-Measure service.
+
+Modelos de despliegues: 
+Private cloud.
+public cloud.
+community cloud.
+hybrid cloud.
+multi-cloud.

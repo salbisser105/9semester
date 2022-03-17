@@ -1,0 +1,14 @@
+interproccess comunication 
+-Mecanismos que permite la comunicacion entre procesos que se ejecutan sobre la misma mquina.
+
+Servidores: secuencial vs conucrrente.
+Unp roceso servidor secuencial es aquel que procesa una peticion al tiempo
+
+Sockets:
+son usados normalmente para la intereaccion cliente/servidor 
+los clientes se conectan al servidor, intercambian informacioón y luego se desconectan
+un socket tiene normalmente un flujo de eventos:
+    -Como se observa en la figura, en un modelo cliente/servidor orientado al a conexion, el servidor espera por conexiones de los clientes 
+    -Para esto es el servidor establecido primero una direccion donde puede ser conectado por el cliente 
+    en este punto ya el servidor puede recibir peticiones del cliente 
+    ahora proceden a intercambiar datos 

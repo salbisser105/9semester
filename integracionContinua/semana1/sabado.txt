@@ -1,0 +1,11 @@
+Para usted, Qué es DevOps
+
+Aplica DevOps o CI/CD en su día a día ?
+Como ?
+
+Qué es DevOps?
+Es un framework que busca una mejor integración entre los equipos de desarrollo y operaciones.
+ 1. Se pasa de que los equipos dedesarrollo, QA y operaciones trabajen en silos a hcaerlo en equipos multidisciplinares.
+ 2. Si bien DevOps se centraliza a menduo, lo ideal es que funcione mediante varios equipos multidisciplinares.
+Los equipos DevOps se deben conformar de acuerdo a como funicone mejor para la organización.
+Hay un muy fuerte enfoque a la automatización de procesos.

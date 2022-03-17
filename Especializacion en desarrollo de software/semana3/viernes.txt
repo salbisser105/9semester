@@ -1,0 +1,2 @@
+DevOps 
+Se basa en LEAN -> Metrica mas importante = Lead time ( Tiempo del ciclo), cuanto se demora desde que inicia hasta que termina el requerimiento

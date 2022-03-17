@@ -1,0 +1,44 @@
+Un servidor multiHilos: Dispatcher/worker  -> Trabaja recursos, por cada conexión entrante un proceso/hilo. consume mucho en el sistema operativo 
+
+Introducción: 
+-Los sistemas distribuidos son piezas de software bastantes complejas.
+
+Arquitectura de Software
+Arqyutectyra en capas 
+-Este estilo arquitectonico se concentra en la agrupacion de funcionalidades drelacionadas de una aplicacion en capas 
+-Modulos o componentes con funcionalidades similares son organizados en capas horizontales.
+-Estas capas normalmente suelen ir apiladas verticalmente una sobre la otra. 
+-las funcionalidades dentro de capa esta muy bien definidas y delimitadas.
+
+Application Layering:
+-En aplicaciones distribuidas que permiten a los usuarios acceder bases de datos, se diferencian tres grandes capas:
+-La capa de aplicacion, la capa de procesamiento y la capa de datos 
+
+Object-based architecture.
+ -Es un paradigma de dise;o basado en la division de responsabilidades de una aplicación o sistema en objetos individuales reutilizables y autosufienictes.
+ -Cada objeto contiene los datos y el comporta miento relevante 
+ -En este sentido se ve al sistema coom un conjunto de objetos que cooperan entre si
+ esta comunicacion se da a traves del paso de mensajes.
+ las interfaces ocultan los detalles de implementacion
+ los objetos son entidades independientes y debilmente acopladas los cuales se comunican entre si a traves de las interfaces
+
+
+ Peer to peer:
+ Caracteristicas en las redes P2P:
+ Comparticion de recursos
+ conectividad
+ descentralizacion
+ simetria
+ Autonomia
+ Auto-organizacion
+ escalabilidad
+ estabilidad. 
+
+ Aspectos a considerar:
+ En este tipo de arquitectura no existe nignua imposicion en como se deben organizar los nodos entre si
+ -Al momento de construir una unstructured P2P los siguientes aspectos deben considerarse: 
+    -Busqueda eficiente y costo de replicación en una red P2P no estructurada, los datos son distribuidos y almacenados en los peers. De esta forma, cada peer mantiene informacion limitada sobre el sistema.
+    -escalabilidad: Un sistema P2P puede estar conformado de cientos o miles de nodos(Peers). en este sentido, cada peer se puede comunicar con algunos otros.
+    -Tolerancia a la dinamica de los peerS: en una red p2p nodos pueden llegar/salir/fallar del sistema. en este sentido la red debe soportar este aspecto.
+    -Distribucion de la carga: en un sistema P2P los nodos tienen caracteristicas diferentes, por esto se hace necesario lograr una distribuco de la carga sobre los peers y asi evitar peers sobre cargados.
+    -Seguridad: hay que ser precavidos con los nodos que entran al sistema.

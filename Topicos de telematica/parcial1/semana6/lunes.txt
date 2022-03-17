@@ -1,0 +1,48 @@
+Proyecto1: Base de datos distribuida simple k,v(SDBKV)
+
+Fechas entrega: Entregable1 + reporte de avance 12 de marzo de 2022.
+Entregable2 + Entregable1 revisado 24 de marzo de 2022.
+
+
+Conexión base de datos-> Especificar HOST y dbname.
+Recordar concepto key,value.
+
+Operaciones basicas: PUT/GET
+Modificar base de datos: UPDATE
+eliminar: DELETE.
+
+*Almacenamiento distribuido de datos - Recuperación distribuida o centralizada.
+*Replicación
+*Particionamiento
+*Tolerancia a fallos
+*Escalabilidad
+*WORM vs WMRM 
+*Cliente / servidor vs P2P vs hibrido C/S-p2p con todas las variantes posibles de C/S y P2P 
+*Transacciones, Bloque u objetos.
+
+Replicación de Datos
+Sistemas distribuidos.
+Concepto de Replicación:
+- Replicar: Copiar algo exactamente.
+- Replicación se puede comprender en términos de lograr tener una copia de un mismo datos sobre múltiples instancias.
+- Cada instancia se conoce como replica.
+- La replicacion es un concepto fundamental en los sistemas distribuidos con el fin de mejorar los servicios.
+    - Aspecto fundamental para implementar la tolerancia a fallas.
+- La replicación es una forma de introducir la redundancia en los sistemas distribuidos.
+Motivación para la replicación.
+- Mantener los datos los mas cercano posible a los usuarios.
+- Permitir alsistema funcionar en presencia de fallas.
+- Basicamente se trata de mejorar la confiabilidad (reiability) y el desempe;o (performance del sistema).
+
+Algoritmos para Replicación de datos.
+1. Single leader
+2. Multi leader 
+3. Leaderless
+4. En estas aproximaciones podemos encontrar que pueden ser:
+ 1. Sincrónicos vs Asincrónicos
+
+Leaders and followers:
+ -Cada nodo que almacena una copia de la base de datos, se denomina replica.
+ -En presencia de múltiples replicas, el gran interrogante  a  resolver es como garantizamos que un dato finalice en todas las replicas.
+ -Toda operación de lectura a la base de datos debe ser procesada por todas y cada una de ellas. 
+ 

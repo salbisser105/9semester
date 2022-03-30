@@ -1,0 +1,29 @@
+Modelos de despliegue:
+Private cloud 
+El termino de nube privada se define centornos de computación en nube dirigida e intencionada a atender un conjunto especifico de usuarios (no al publico en general).
+
+Tradicionalmente las nubes privadas corren on-premise pero en la actualidad, muchas organizaciones estan implementando sus nubes privadas sobre data centers lquilados por fuera de sus instalcaiones.
+
+Toda las nubes se convierte en privada.
+La nube privada los beneficios de la nube publica a los negocios.. esto incluye auto servicio, escalabilidad y elasticidad.
+
+Son muchas las tecnologias que apoyan el despliegue de soluciones de nube privada pero una fundamental es la virtualizacion
+
+Por que usar nubes privadas ?
+Las nubes privadas son la solucion ideal para lideres de TI que desean poner los recursos de computo bajo demanda.
+
+El empleo de nube privada reduce la capacidad de desperdicio de recurso.
+Servicios bajo demanda utilizando auto-aprovisionamiento y gestion basado en politicas.
+Optimizacion asi como un uso eficiente de los recursos considerando las necesidades.
+
+
+Nube publica:
+El concepto de nube publica es definido como servicios de computo (u otros) ofrecidos por un tercero utilizando internet.
+
+    De esta forma los servicios esta disponibles para quien quiera utilizarlos.
+    Pagos y en algunos casos gratuitos.
+    Permite a los usuarios pagar por lo que usa.
+    Evita a las compa;ias la necesidad de invertir en altos costos para adquirir , gestionar y mantener on-premises HW y SW 
+    la nube pbulica se construye en internet 
+Multi cloud 
+Razones:
